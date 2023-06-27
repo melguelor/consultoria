@@ -1,0 +1,57 @@
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color:rgb(20, 22, 145)
+}
+
+.fundo{
+    background-color: rgb(243, 121, 8);
+}
+
+.secao_1 {
+    display: block !important;
+    animation: show 5s forwards;
+  }
+  
+  @keyframes show {
+    from {
+      opacity: 0;
+      transform: translate3d(-30px, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .borda-pontilhada {
+    border: 1px dotted #000;
+  }
+  
+  .borda-tracos {
+    border: 10px dashed #3e2666;
+  }
+  
+.promocao{
+    background-color: red;
+    color: rgb(238, 232, 232);
+}
+
+.card_corpo{
+    background-color: #3e2666;
+}
+.card{
+    
+        border-color: orange;
+      
+      
+     
+        border-style: dashed;
+      
+}
+
+.botao{
+    background-color: aqua;
+}
