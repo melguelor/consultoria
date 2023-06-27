@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de3c2416.css",
+    "main.js": "/static/js/main.74e9b45b.js",
+    "static/js/787.80a78744.chunk.js": "/static/js/787.80a78744.chunk.js",
+    "static/media/VictorMachini.jpg": "/static/media/VictorMachini.e17c5df4a0315a377f6a.jpg",
+    "static/media/logo_mod.png": "/static/media/logo_mod.4342744cdcabb8beb752.png",
+    "static/media/retorno_melhores.png": "/static/media/retorno_melhores.2811c9f35058a5f875b8.png",
+    "static/media/duracao.png": "/static/media/duracao.e032b6bd89e3f1ad95e9.png",
+    "static/media/entende.png": "/static/media/entende.1c0149a59bbcd6aa6276.png",
+    "static/media/contato.png": "/static/media/contato.6ebaea367717cd138f00.png",
+    "static/media/calculo_financa.png": "/static/media/calculo_financa.e3a9c47f4bf332838ea2.png",
+    "static/media/interface_amigavel.png": "/static/media/interface_amigavel.0db580bd027f2ffdebed.png",
+    "index.html": "/index.html",
+    "main.de3c2416.css.map": "/static/css/main.de3c2416.css.map",
+    "main.74e9b45b.js.map": "/static/js/main.74e9b45b.js.map",
+    "787.80a78744.chunk.js.map": "/static/js/787.80a78744.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de3c2416.css",
+    "static/js/main.74e9b45b.js"
+  ]
+}
