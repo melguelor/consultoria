@@ -15,6 +15,8 @@ import Quadro from './card.js'
 import Sequencia from './sequencia';
 import victor from './fotos/VictorMachini.jpg'
 import './css.css'
+import Menu from './menu';
+import Login from './login';
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
   return (
     <div className="App fundo">
       <Container className="borda-tracos">
+        <Menu/>
+        
         <Container className=' mt-1 secao_1' >
           <p>
             <img src={logo} width="35%" />
