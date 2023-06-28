@@ -54,10 +54,10 @@ function App() {
               <Container >
 
               
-              <Row className='d-flex justify-content-center mx-auto'>
+              <Row className=''>
                 
-                <Col className='mt-1 col-lg-4' >
-                      <Quadro className=""
+                <Col className='' >
+                      <Quadro className="d-flex"
                           imagem={calculo_financa}
                           porcentagem={'50%'}
                           titulo="Para Pessoas Cansadas de não entender o que se está dizendo."
@@ -65,7 +65,7 @@ function App() {
                       />
                 </Col>
 
-                <Col className='mt-1 col-lg-4' >
+                <Col className=' ' >
                 <Quadro
                           imagem={retorno_melhor}
                           porcentagem={'50%'}
@@ -77,7 +77,7 @@ function App() {
 
 
 
-                <Col className='mt-1 col-lg-4 bg-transparent' >
+                <Col className='  bg-transparent' >
                       <Quadro className="col"
                           imagem={amigavel}
                           porcentagem={'50%'}
@@ -156,7 +156,7 @@ function App() {
 
            <Sequencia 
               numero='05'
-              titulo="Independencia Fnanceira"
+              titulo="Independencia Financeira"
               texto="Conquistará a tão sonhada e deseja vida financeira que você possa desejar."
           
           />
