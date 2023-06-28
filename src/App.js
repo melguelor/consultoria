@@ -14,8 +14,8 @@ function App() {
       <BrowserRouter>
 
 <Routes>
-  <Route path="/" element={<Home tituloPagina="Home"/>}/>
-  <Route path="/simulador" element={<TelaEscolhaSimulador />}/>
+  <Route path="/simulador" element={<Home tituloPagina="Home"/>}/>
+  <Route path="/" element={<TelaEscolhaSimulador />}/>
   <Route path="/simulador_CDB" element={<TelaEscolhaSimulador />}/>
  
   
