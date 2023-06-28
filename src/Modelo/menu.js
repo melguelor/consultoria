@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import './css.css';
+import '../Home/css.css';
 
 const Menu = () => {
   return (
