@@ -14,8 +14,8 @@ function App() {
       <BrowserRouter>
 
 <Routes>
-  <Route path="/simulador" element={<Home tituloPagina="Home"/>}/>
-  <Route path="/" element={<TelaEscolhaSimulador />}/>
+  <Route exact path="/" element={<Home />}/>
+  <Route path="/simulador" element={<TelaEscolhaSimulador />}/>
   <Route path="/simulador_CDB" element={<TelaEscolhaSimulador />}/>
  
   
@@ -23,11 +23,7 @@ function App() {
   </Routes>
 
 
-<Routes>
 
-
-
-</Routes>
 
 </BrowserRouter>
 
