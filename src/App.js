@@ -38,7 +38,7 @@ function App() {
         </Container>
 
         <Container className=' mt-1 secao_1'>
-          <p className='display-6'>Para quem é a CONSULTORIA ?</p>
+          <p className='display-6'>Para quem é a mudeiiiiii ?</p>
           <p className='text-center'>
           Se você está cansado de se deparar com diversos materiais que geram confusão ou despertam medos em relação ao mercado financeiro. Então esta consultoria é para você.
           <br/>Venha conhecer a verdadeira essência do mercado financeiro através de uma consultoria que irá te apoiar enquanto você aprende, tudo isso no conforto do seu próprio ritmo.
