@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App fundo">
-      <Container className="borda-tracos">
+      <Container className="borda-tracos ">
         <Menu/>
         
         <Container className=' mt-1 secao_1' >
@@ -52,8 +52,78 @@ function App() {
           </p>
             <Container  >
              
-              
+            <Container>
 
+       
+<h1> Como vai funcionar?</h1>
+          <p className='col-lg-8 text-center d-flex content-justify mx-auto'>
+          O funcionamento será acordado entre as partes, mas esses itens serão essencias para o bom funcionamento
+          </p>
+
+          <Row className='d-flex justify-content-center mx-auto'>
+
+<Col className='mt-1 col-lg-3 d-flex' >
+      <Quadro className=""
+          imagem={calculo_financa}
+          porcentagem={'50%'}
+          titulo="Para Pessoas Cansadas de não entender o que se está dizendo."
+                          texto="Existe uma quantidade absurda de informações e todas soltas. Isso tem custo de tempo e vida"
+      />
+</Col>
+
+<Col className='mt-1 col-lg-3 d-flex' >
+<Quadro
+          imagem={retorno_melhor}
+          porcentagem={'50%'}
+          titulo="Para Pessoas Cansadas de não ter retornos que ganham da inflação."
+                          texto="Ter retorno satisfatorio é o caminho para vencer nos investimentos. Ficar abaixo da inflação é perder dinheiro"
+      />
+</Col>
+
+
+
+<Col className='mt-1 col-lg-3 bg-transparent d-flex' >
+      <Quadro className="col"
+          imagem={amigavel}
+          porcentagem={'50%'}
+          titulo="Contato Direto"
+          texto={'A hora que você julgar necessário, poderá entrar em contato e será atendido da forma que mais desejar: Mensagem, audio, video chamada ou ligação.'}
+        />
+</Col>
+
+
+
+</Row>
+
+
+
+
+
+
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
 
             
               
@@ -81,6 +151,25 @@ function App() {
 
           </Row>
         </Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <Container >
           <h1> O que Irá Aprender Comigo?</h1>
@@ -127,7 +216,90 @@ function App() {
           
         </Container>
 
+        <Container>
+
+       
+                <h1> Como vai funcionar?</h1>
+                          <p className='col-lg-8 text-center d-flex content-justify mx-auto'>
+                          O funcionamento será acordado entre as partes, mas esses itens serão essencias para o bom funcionamento
+                          </p>
         
+                          <Row className='d-flex justify-content-center mx-auto'>
+                
+                <Col className='mt-1 col-lg-3 d-flex' >
+                      <Quadro className=""
+                          imagem={video}
+                          porcentagem={'20%'}
+                          titulo="Videos Exclusivos"
+                          texto="Videos exclusivos sobre os assuntos. Tambem videos sob demanda do cliente para tirar duvida ou apronfundar no assunto. Tudo numa playlist no youtube onde só vocÊ terá acesso."
+                      />
+                </Col>
+
+                <Col className='mt-1 col-lg-3 d-flex' >
+                <Quadro
+                          imagem={caderno}
+                          porcentagem={'20%'}
+                          titulo="Caderno Digital"
+                          texto="Disponivel um caderno digital contendo os asssuntos já tratos, a estrategia a se seguir e diversos materiais interessantes."
+                      
+                      />
+                </Col>
+
+
+
+                <Col className='mt-1 col-lg-3 bg-transparent d-flex' >
+                      <Quadro className="col"
+                          imagem={contato}
+                          porcentagem={'20%'}
+                          titulo="Contato Direto"
+                          texto={'A hora que você julgar necessário, poderá entrar em contato e será atendido da forma que mais desejar: Mensagem, audio, video chamada ou ligação.'}
+                        />
+                </Col>
+                
+                
+
+              </Row>
+
+
+
+
+              <Row className='d-flex justify-content-center mx-auto'>
+                
+                <Col className='mt-1 col-lg-3 d-flex' >
+                      <Quadro className=""
+                          imagem={duracaoo}
+                          porcentagem={'20%'}
+                          titulo="Duração"
+                          texto="Minino Recomendado é 4 meses podendo ser extendido de acordo com a necessidade."
+                      />
+                </Col>
+
+                <Col className='mt-1 col-lg-3 d-flex' >
+                <Quadro
+                          imagem={entende}
+                          porcentagem={'20%'}
+                          titulo="Informações Claras"
+                          texto="Você entenderá tudo."
+                      
+                      />
+                </Col>
+
+
+
+                <Col className='mt-1 col-lg-3 bg-transparent d-flex' >
+                      <Quadro className="col"
+                          imagem={dinheiro}
+                          porcentagem={'20%'}
+                          titulo="Sem Perda de Dinheiro"
+                          texto={'Iremos a passos lentos e construtivos e isso fará com que não perda dinheiro e nem fique exposto ao risco.'}
+                        />
+                </Col>
+                
+                
+
+              </Row>
+
+              </Container>
             <Container className=' d-flex justify-content-center mx-auto'>
               <Card className='col-lg-4 '>
                 <Card.Title className='promocao p-2'>
