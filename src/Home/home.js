@@ -1,6 +1,7 @@
 
 
-import { Button, Container, Image, Row, Col, Card } from 'react-bootstrap';
+import { Button, Container, Image, Row, Col, Card} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import logo from '../fotos/logo_mod.png'
 import calculo_financa from '../fotos/calculo_financa.png'
 import retorno_melhor from '../fotos/retorno_melhores.png'
@@ -316,7 +317,9 @@ function App() {
                 
                 </Card.Body>
                 <Card.Footer>
+                  <Link to="https://pag.ae/7ZxWYu1TH">
                   <Button className=' btn btn-success border'>GARANTA SUA CONSCIÊNCIA FINANÇEIRA</Button>
+                  </Link>
                 </Card.Footer>
               </Card>
             </Container>
