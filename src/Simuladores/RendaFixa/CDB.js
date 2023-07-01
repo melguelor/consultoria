@@ -1,4 +1,4 @@
-import { Button, Form, Table } from "react-bootstrap"
+import { Button, Col, Container, DropdownButton, Form, InputGroup, Row, Table, Dropdown } from "react-bootstrap"
 import Pagina from "../../Modelo/Pagina"
 import '../simulador.css'
 
@@ -7,50 +7,85 @@ export default function CDB(props)
 
 
 
-
+//{selection === 'mes' ? 'Mês' : 'Ano'}
     return(
         <Pagina>
+            <Container className="col-12 border mt-1">
+               <Form className=" mx-auto border"> 
+               <Row className="col-sm-5 mx-auto">
+                <Col>
+                    <InputGroup >
+                        <InputGroup.Text >Valor</InputGroup.Text>
+                        <Form.Control  />
+                    </InputGroup>
+                
+                </Col>
 
-           <Form >
-            <Form.Group className="col-3 mx-auto">
-                <Form.Label>rrtrtrt</Form.Label>
-                <Form.Control />
-            </Form.Group>
+                </Row>
+
+                <Row className="col-sm-5 mx-auto mt-3">
+                <Col>
+                    <InputGroup >
+                        <InputGroup.Text >Periodo</InputGroup.Text>
+                        <Form.Control  />
+                        
+                        <DropdownButton  title="Mês">
+                            <Dropdown.Item>2021</Dropdown.Item>
+                            <Dropdown.Item>2021</Dropdown.Item>
+                        </DropdownButton>
+                    </InputGroup>
+                
+                </Col>
+
+                </Row>
+
+
+                <Row className="col-sm-5 mx-auto mt-3">
+                <Col>
+                    <InputGroup >
+                        <InputGroup.Text >CDI %</InputGroup.Text>
+                        <Form.Control  />
+                        
+                        <DropdownButton  title="Mês">
+                            <Dropdown.Item>ao ano</Dropdown.Item>
+                            <Dropdown.Item>ao mes</Dropdown.Item>
+                        </DropdownButton>
+                    </InputGroup>
+                
+                </Col>
+
+                </Row>
+           
+            
             <Button>Simular</Button>
            </Form>
      
+                    <div className=" "> 
+
                     
-                <Table className="mx-auto tabela "    size="sm" >
+                <table className=" mx-auto"    size="sm" >
             <thead className="tabela ">
-                <tr  className="borda">
-                    <th className="borda" >Nome</th>
-                    <th className="borda">Sobrenome</th>
-                    <th className="borda">Idade</th>
-                    <th className="borda">Idade</th>
-                    <th className="borda">Idade</th>
-                    <th className="borda">Idade</th>
+                <tr  className="borda ">
+                    <th className="borda p-1" >Mês</th>
+                    <th className="borda p-1">Juros</th>
+                    <th className="borda p-1">Total</th>
+                    
                 </tr>
             </thead>
 
             <tbody>
                 <tr>
-                    <td  className="borda">Douglas</td>
-                    <td className="borda">Toledo</td>
-                    <td className="borda">29</td>
-                     <td className="borda">Douglas</td>
-                    <td className="borda">Toledo</td>
-                    <td className="borda">29</td>
+                    <td  className="borda p-1">1</td>
+                    <td className="borda p-1">R$ 24,33</td>
+                    <td className="borda p-1">45,33</td>
+                    
                 </tr>
-                <tr>
-                    <td>Lorem</td>
-                    <td>Ipsum</td>
-                    <td>35</td>
-                </tr>
+                
             </tbody>
-        </Table>
-
+        </table>
+</div>
        
-
+</Container>
         </Pagina>
     )
 }
