@@ -72,29 +72,7 @@ export default function TelaEscolhaSimulador()
                 <p>COMPARAR INVESTIMENTOS</p>
             </Row>
 
-            <table className="mx-aut">
-    <thead>
-        <tr>
-            <th>Nome</th>
-            <th>Sobrenome</th>
-            <th>Idade</th>
-        </tr>
-    </thead>
-
-    <tbody>
-        <tr>
-            <td>Douglas</td>
-            <td>Toledo</td>
-            <td>29</td>
-        </tr>
-        <tr>
-            <td>Lorem</td>
-            <td>Ipsum</td>
-            <td>35</td>
-        </tr>
-    </tbody>
-</table>
-
+            
 
         </Pagina>
         </>)
