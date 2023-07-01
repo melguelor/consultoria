@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Home/home'
 import TelaEscolhaSimulador from './Simuladores/TelaEscolhaSimulador';
+import PaginaFutura from './Modelo/paginaFutura';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
   <Route exact path="/" element={<Home />}/>
   <Route path="/simulador" element={<TelaEscolhaSimulador />}/>
   <Route path="/simulador_CDB" element={<TelaEscolhaSimulador />}/>
+  <Route path="/404" element={<PaginaFutura />}/>
  
   
 

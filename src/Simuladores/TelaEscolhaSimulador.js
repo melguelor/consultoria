@@ -72,28 +72,28 @@ export default function TelaEscolhaSimulador()
                 <p>COMPARAR INVESTIMENTOS</p>
             </Row>
 
-            <Table striped bordered hover size="sm"  >
-      <thead >
-        <tr >
-          <th>Coluna 1</th>
-          <th>Coluna 2</th>
-          <th>Coluna 3</th>
-        </tr>
-      </thead>
-      <tbody>
+            <table className="mx-aut">
+    <thead>
         <tr>
-          <td>Dado 1</td>
-          <td>Dado 2</td>
-          <td>Dado 3</td>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Douglas</td>
+            <td>Toledo</td>
+            <td>29</td>
         </tr>
         <tr>
-          <td>Dado 4</td>
-          <td>Dado 5</td>
-          <td>Dado 6</td>
+            <td>Lorem</td>
+            <td>Ipsum</td>
+            <td>35</td>
         </tr>
-        {/* Adicione mais linhas conforme necessário */}
-      </tbody>
-    </Table>
+    </tbody>
+</table>
 
 
         </Pagina>
