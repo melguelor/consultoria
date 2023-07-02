@@ -5,7 +5,7 @@ import '../Home/css.css';
 //para uma pagina 404
 const Menu = () => {
   return (
-    <Navbar expand="lg" className="cor btn-success">
+    <Navbar expand="lg" className="cor ">
       <Navbar.Toggle className='cor' aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className='cor' id="basic-navbar-nav">
         <Nav className="mx-auto display-6">
