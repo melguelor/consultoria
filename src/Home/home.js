@@ -311,13 +311,13 @@ function App() {
                 <Card.Body className='card_corpo text-light'>
                 <Card.Img variant="top" src={logo} className="mx-auto"/>
                 <p className="text-light">Consultoria completa sobre Investimento e Educação financeira</p>
-                <h1>R$450,00</h1>
+                <h1>---</h1>
                 <p className="text-light">ou</p>
-                <h1>12 x   46,54</h1>
+                <h1>12 X ---</h1>
                 
                 </Card.Body>
                 <Card.Footer>
-                  <Link to="https://pag.ae/7ZxWYu1TH">
+                  <Link to="/">
                   <Button className=' btn btn-success border'>GARANTA SUA CONSCIÊNCIA FINANÇEIRA</Button>
                   </Link>
                 </Card.Footer>
