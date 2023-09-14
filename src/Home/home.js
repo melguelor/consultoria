@@ -33,8 +33,8 @@ function App() {
       
         
         <Container className='  secao_1' >
-          <p width="30%">
-            <img src={logo}  />
+          <p >
+            <img src={logo} width='500px' />
           </p>
           
 
