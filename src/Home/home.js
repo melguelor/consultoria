@@ -2,7 +2,7 @@
 
 import { Button, Container, Image, Row, Col, Card} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import logo from '../fotos/logo_mod.png'
+import logo from '../fotos/logo_novo.png'
 import calculo_financa from '../fotos/calculo_financa.png'
 import retorno_melhor from '../fotos/retorno_melhores.png'
 import amigavel from '../fotos/interface_amigavel.png'
@@ -32,9 +32,9 @@ function App() {
         
       
         
-        <Container className=' mt-1 secao_1' >
+        <Container className='  secao_1' >
           <p>
-            <img src={logo} width="35%" />
+            <img src={logo} width="50%" />
           </p>
           
 
