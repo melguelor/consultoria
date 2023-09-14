@@ -17,6 +17,7 @@ function App() {
 
 <Routes>
   <Route exact path="/" element={<Home />}/>
+  
   <Route path="/simulador" element={<TelaEscolhaSimulador />}/>
   <Route path="/simulador_CDB" element={<TelaEscolhaSimulador />}/>
   <Route path="/404" element={<PaginaFutura />}/>
