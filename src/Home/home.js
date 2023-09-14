@@ -38,12 +38,12 @@ function App() {
           </p>
           
 
-          <p className='display-5'>Invista Para Nunca Mais Parar</p>
+          <h1 className='display-5'>Invista Para Nunca Mais Parar</h1>
           <Button className="mb-3 btn btn-success border" onClick={() =>window.open('https://api.whatsapp.com/send?phone=5518991844367&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20a%20CONSULTORIA')}>GARANTA SUA CONSCIENCIA FINANCEIRA</Button>
         </Container>
 
         <Container className=' mt-1 secao_1'>
-          <p className='display-6'>Para quem é a Consultoria ?</p>
+          <h1 className='display-6'>Para quem é a Consultoria ?</h1>
           <p className='text-center'>
           Se você está cansado de se deparar com diversos materiais que geram confusão ou despertam medos em relação ao mercado financeiro. Então esta consultoria é para você.
           <br/>Venha conhecer a verdadeira essência do mercado financeiro através de uma consultoria que irá te apoiar enquanto você aprende, tudo isso no conforto do seu próprio ritmo.
