@@ -5,7 +5,7 @@
     font-size: 20px;
     color:rgb(0, 0, 0);
     background-color: e7ecef;
-    background-image: url('../fotos/moeda.png');
+    
 }
 
 
@@ -15,7 +15,7 @@
 .secao_1 {
     display: block !important;
     animation: show 5s forwards;
-    
+    background-image: url('../fotos/moeda.png');
   }
   
   @keyframes show {
@@ -40,6 +40,7 @@
 .promocao{
     background-color: red;
     color: rgb(238, 232, 232);
+    
 }
 
 .card_corpo{
