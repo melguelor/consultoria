@@ -36,12 +36,10 @@ function App() {
           <p>
             <img src={logo} width="35%" />
           </p>
-          <p>
-          <iframe width="90%" height="315" src="https://www.youtube.com/embed/KeXjAAOG5NY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </p>
+          
 
-          <p className='display-5'>Invista Para nunca Mais Parar</p>
-          <Button className="mb-3 btn btn-success border">GARANTA SUA CONSCIENCIA FINANCEIRA</Button>
+          <p className='display-5'>Invista Para Nunca Mais Parar</p>
+          <Button className="mb-3 btn btn-success border" onClick={() =>window.open('https://api.whatsapp.com/send?phone=5518991844367&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20a%20CONSULTORIA')}>GARANTA SUA CONSCIENCIA FINANCEIRA</Button>
         </Container>
 
         <Container className=' mt-1 secao_1'>
@@ -304,21 +302,17 @@ function App() {
 
               </Container>
             <Container className=' d-flex justify-content-center mx-auto'>
-              <Card className='col-lg-4 '>
-                <Card.Title className='promocao p-2'>
-                  PROMOÇÃO DE LANÇAMENTO
-                </Card.Title>
+              <Card className='col-lg-4 mb-2'>
+                
                 <Card.Body className='card_corpo text-light'>
                 <Card.Img variant="top" src={logo} className="mx-auto"/>
                 <p className="text-light">Consultoria completa sobre Investimento e Educação financeira</p>
-                <h1>---</h1>
-                <p className="text-light">ou</p>
-                <h1>12 X ---</h1>
+                
                 
                 </Card.Body>
                 <Card.Footer>
                   <Link to="/">
-                  <Button className=' btn btn-success border'>GARANTA SUA CONSCIÊNCIA FINANÇEIRA</Button>
+                  <Button className=' btn btn-success border' onClick={() =>window.open('https://api.whatsapp.com/send?phone=5518991844367&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20a%20CONSULTORIA')}>GARANTA SUA CONSCIÊNCIA FINANÇEIRA</Button>
                   </Link>
                 </Card.Footer>
               </Card>
@@ -338,7 +332,7 @@ function App() {
 
              <Row>
               3. Quanto tempo leva para a produção de material exclusivo?
-              <p className="d-flex">de 3 a 7 dias para produzir, gravar, editar videos e outros materias exclusivos conforme a demanda do cliente </p>
+              <p className="d-flex">De 3 a 7 dias para produzir, gravar, editar videos e outros materias exclusivos conforme a demanda do cliente </p>
              </Row>
 
              
