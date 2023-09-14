@@ -33,10 +33,10 @@ function App() {
       
         
         <Container className='  secao_1' >
-          <p >
-            <img src={logo} width='70%' />
-          </p>
           
+          <p >
+            <img src={logo} width='50%'  className='imagem_desktop imagem_mobile'/>
+          </p>
 
           <h1 className=''>Invista Para Nunca Mais Parar</h1>
           <Button className="mb-3 btn btn-success border" onClick={() =>window.open('https://api.whatsapp.com/send?phone=5518991844367&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20a%20CONSULTORIA')}>GARANTA SUA CONSCIENCIA FINANCEIRA</Button>

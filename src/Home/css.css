@@ -8,6 +8,18 @@
     
 }
 
+/** Para mostrar somente no celular*/
+@media (max-width: 700px) 
+{
+  
+   .imagem_mobile{
+        width: 80%;
+   }
+}
+
+
+
+
 
 .cor{color:rgb(20, 22, 145)}
 .backkkk{background-color: rgb(243, 121, 8);}
