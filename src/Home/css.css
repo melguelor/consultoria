@@ -1,15 +1,15 @@
 
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
+    font-weight: lighter;
     font-size: 20px;
     color:rgb(0, 0, 0);
-    background-color: rgb(243, 121, 8);
+    background-color: rgb(238, 138, 43);
 }
 
 
 .cor{color:rgb(20, 22, 145)}
-
+.backkkk{background-color: rgb(243, 121, 8);}
 
 .secao_1 {
     display: block !important;
