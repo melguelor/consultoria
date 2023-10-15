@@ -8,12 +8,18 @@
     
 }
 
+
+.titulo_laranja{
+  color: rgb(238, 150, 75);
+  font-family: Armstrong;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0);
+}
 /** Para mostrar somente no celular*/
 @media (max-width: 700px) 
 {
   
    .imagem_mobile{
-        width: 80%;
+        width: 100%;
    }
 }
 
@@ -24,10 +30,11 @@
 .cor{color:rgb(20, 22, 145)}
 .backkkk{background-color: rgb(243, 121, 8);}
 
+.fundo_moeda{background-image: url('../fotos/moeda.png');}
 .secao_1 {
     display: block !important;
     animation: show 5s forwards;
-    background-image: url('../fotos/moeda.png');
+    
   }
   
   @keyframes show {

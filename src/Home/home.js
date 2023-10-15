@@ -27,7 +27,7 @@ function App() {
 
 
   return (
-    <div className="App  text-center">  <Pagina>
+    <div className="App  text-center fundo_moeda">  <Pagina>
       
         
       
@@ -38,12 +38,12 @@ function App() {
             <img src={logo} width='50%'  className='imagem_desktop imagem_mobile'/>
           </p>
 
-          <h1 className=''>Invista Para Nunca Mais Parar</h1>
+          <h1 className='titulo_laranja sombra'>Invista Para Nunca Mais Parar</h1>
           <Button className="mb-3 btn btn-success border" onClick={() =>window.open('https://api.whatsapp.com/send?phone=5518991844367&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20a%20CONSULTORIA')}>GARANTA SUA CONSCIENCIA FINANCEIRA</Button>
         </Container>
 
         <Container className=' mt-1 secao_1'>
-          <h1 className=''>Para quem é a Consultoria ?</h1>
+          <h1 className='titulo_laranja'>Para quem é a Consultoria ?</h1>
           <p className='text-center'>
           Se você está cansado de se deparar com diversos materiais que geram confusão ou despertam medos em relação ao mercado financeiro. Então esta consultoria é para você.
           <br/>Venha conhecer a verdadeira essência do mercado financeiro através de uma consultoria que irá te apoiar enquanto você aprende, tudo isso no conforto do seu próprio ritmo.
@@ -56,7 +56,7 @@ function App() {
             <Container>
 
        
-<h1> Como vai funcionar?</h1>
+<h1 className='titulo_laranja'> Como vai funcionar?</h1>
           <p className='col-lg-8 text-center d-flex content-justify mx-auto'>
           O funcionamento será acordado entre as partes, mas esses itens serão essencias para o bom funcionamento
           </p>
@@ -141,7 +141,7 @@ function App() {
 
 
             <Col sm={8} >
-              <h1 >VICTOR HUGO MACHINI</h1>
+              <h1 className='titulo_laranja'>VICTOR HUGO MACHINI</h1>
               <p className='text-justify'>            Como investidor, adquiri conhecimento ao me questionar sobre o rendimento da poupança.              Desde os meus 20 anos, tenho investido diligentemente.</p> 
               <p className='text-justify'>Comecei com a mesada que economizei durante a infância e, em seguida, passei a investir o dinheiro excedente proveniente de práticas inteligentes de economia, que se tornaram cada vez mais presentes em minha vida.</p>
               <p className='text-justify'> Paralelamente, a programação entrou em minha vida como outra profissão tão complexa quanto a educação financeira, proporcionando gratificação de diferentes maneiras.</p>
@@ -173,7 +173,7 @@ function App() {
 
 
         <Container >
-          <h1> O que Irá Aprender Comigo?</h1>
+          <h1 className='titulo_laranja'> O que Irá Aprender Comigo?</h1>
           <p className='col-lg-8 text-center d-flex content-justify mx-auto'>
           Descubra tudo o que você irá aprender. Uma Consultoria completa que vai te guiar em uma jornada de descobrimento, enriquecimento e transformação pessoal. Aqui estão três tópicos principais que serão abordados:
           </p>
@@ -220,7 +220,7 @@ function App() {
         <Container>
 
        
-                <h1> Como vai funcionar?</h1>
+                <h1 className='titulo_laranja'> Como vai funcionar?</h1>
                           <p className='col-lg-8 text-center d-flex content-justify mx-auto'>
                           O funcionamento será acordado entre as partes, mas esses itens serão essencias para o bom funcionamento
                           </p>
@@ -319,7 +319,7 @@ function App() {
             </Container>
 
             <Container className="col-11">
-             <h1>Quer Saber Mais?</h1>
+             <h1 className='titulo_laranja'>Quer Saber Mais?</h1>
              <Row>
               1. Qual o tempo de duração?
               <p className="d-flex">Via de regra é 4 meses, podendo ser extendido a por tempo indeterminado. Com custos </p>

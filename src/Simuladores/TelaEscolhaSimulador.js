@@ -7,22 +7,22 @@ export default function TelaEscolhaSimulador()
     return(<>
         <Pagina >
             <Row >
-                <p>RENDA FIXA</p>
-            <Col >
-                <Button className="botao btn">CDB</Button>
+            <p>RENDA FIXA</p>
+               <Col >
+                <Button className="botao btn">Juros Compostos</Button>
             </Col>
 
             <Col >
-            <Button  className="botao">LCI/LCA</Button>
+                <Button className="botao btn">CDB - LCI/LCA</Button>
             </Col>
 
-            <Col className="col-5">
-            <Button  className="botao">Tesouro Direto</Button>
-            </Col>
+            
+
+          
             </Row>
 
             <Row>
-                <p>RENDA FIXA</p>
+                <p>RENDA VARIAVEL</p>
             <Col >
                 <Button  className="botao">FII</Button>
             </Col>
@@ -31,9 +31,7 @@ export default function TelaEscolhaSimulador()
                 <Button  className="botao">Ações</Button>
             </Col>
 
-            <Col className="col-5">
-                <Button className="botao" >Tesouro Direto</Button>
-            </Col>
+            
             </Row>
 
             <Row>
@@ -46,9 +44,7 @@ export default function TelaEscolhaSimulador()
                 <Button className="botao">Objetivo</Button>
             </Col>
 
-            <Col>
-                <Button  className="botao">sdsds</Button>
-            </Col>
+                
 
             </Row>
 
