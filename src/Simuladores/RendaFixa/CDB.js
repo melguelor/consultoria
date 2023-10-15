@@ -428,7 +428,7 @@ useEffect(
             </thead>
                     {
                      
-                    dados[0].map((item,index)=>(
+                    dados[0]?.map((item,index)=>(
                       
                         
 
