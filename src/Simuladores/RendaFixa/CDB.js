@@ -11,8 +11,8 @@ export default function CDB(props)
               [periodoTipo,setPeriodoTipo] = useState('ao ano'),
               [taxa,setTaxa] = useState(12.75),
               [CDI,setCDI] = useState(100),
-              [total,setTotal] = useState(0.00),
-              [juros,setJuros] = useState(0.00),
+              [total,setTotal] = useState(0),
+              [juros,setJuros] = useState(0),
               [dados,setDados] = useState([])
 
 
@@ -86,14 +86,16 @@ function calculosmes()//esta corretissimo
            
            }
 setDados([novosDados])
-console.log(dados)
+
+
 
 
        //console.log(periodoTipo)
        // console.log( montante)
-setTotal((valorMensal * auxPeriodo).toFixed(2))
-    setJuros((montante - total).toFixed(2))
-     
+setTotal(valorMensal * auxPeriodo)
+console.log(total)
+    setJuros((montante - (valorMensal * auxPeriodo)).toFixed())
+    console.log(total)
    
 }
 
@@ -133,7 +135,7 @@ function calculosmes()//esta corretor para juros compostos
 
 useEffect(
     ()=>{
-      
+        
     }
 )
 
@@ -145,6 +147,7 @@ useEffect(
           <Container>
                   <Form className="mx-auto">
                     <Row  className="col-lg-8 mx-auto">
+                        
                             <Col sm={6}>
                               <InputGroup className="m-3">
                                 <InputGroup.Text>Valor Mensal</InputGroup.Text>
@@ -189,7 +192,7 @@ useEffect(
 
                     </Row>
                     <Row className="col-2 mx-auto">
-                    <Button  onClick={ ()=>{calculosmes()}}>Simular</Button>
+                    <Button  onClick={ calculosmes}>Simular</Button>
                     </Row>
                  
                   
@@ -420,6 +423,7 @@ useEffect(
                   <thead className="tabela ">
             <tr >
                 <th className="borda border-bottom-0 p-1" colSpan={2}>Juros Mensal</th>
+                <th className="borda border-bottom-0 p-1" colSpan={2}>Juros Acumulado</th>
               
                 
                 
@@ -435,6 +439,7 @@ useEffect(
 
                       <tr >
                         <td className="borda">{index+1}</td>
+                        <td className="borda">preencher</td>
                         <td className="borda ">R$ {item}</td>
                         
                     </tr>
