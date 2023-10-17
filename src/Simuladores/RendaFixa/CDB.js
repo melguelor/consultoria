@@ -158,7 +158,7 @@ useEffect(
                             <Col sm={6}>
                               <InputGroup className="m-3">
                                 <InputGroup.Text>Periodo</InputGroup.Text>
-                                <Form.Control className="text-center"  onChange={(e)=> setPeriodo(e.target.value)}/>
+                                <Form.Control className="text-center" value={periodo} onChange={(e)=> setPeriodo(e.target.value)}/>
                                <DropdownButton title={periodoTipo} onSelect={e =>{setPeriodoTipo(e)}}>
                                <Dropdown.Item eventKey="ao ano">ao ano</Dropdown.Item>
                               <Dropdown.Item eventKey="ao mês">ao mês</Dropdown.Item>
@@ -191,7 +191,7 @@ useEffect(
 
 
                     </Row>
-                    <Row className="col-2 mx-auto">
+                    <Row className="col-sm-2 mx-auto">
                     <Button  onClick={ calculosmes}>Simular</Button>
                     </Row>
                  
