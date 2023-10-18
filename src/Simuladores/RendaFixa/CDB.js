@@ -80,7 +80,7 @@ function calculosmes()//esta corretissimo
            {
             montante += parseFloat(auxValorMensal) * Math.pow(1 + auxTaxa, i);
               novosDados.push((montante - (i * auxValorMensal)).toFixed(2))
-
+            console.log(montante)
           //  setDados([...dados, montante - (i * auxValorMensal)])
           // dados.push(  )
            
@@ -93,9 +93,9 @@ setDados([novosDados])
        //console.log(periodoTipo)
        // console.log( montante)
 setTotal(valorMensal * auxPeriodo)
-console.log(total)
+
     setJuros((montante - (valorMensal * auxPeriodo)).toFixed())
-    console.log(total)
+    
    
 }
 
@@ -145,7 +145,7 @@ useEffect(
     return(
         <Pagina>
           <Container>
-                  <Form className="mx-auto">
+                  <Form className="mx-auto col-sm-12">
                     <Row  className="col-lg-8 mx-auto">
                         
                             <Col sm={6}>
@@ -253,8 +253,8 @@ useEffect(
 
             <tbody>
             <tr>
-                <td  className="borda border-top-0 " colSpan={2}>R${juros * 0.775}</td>
-                <td className="borda border-top-0 " colSpan={1}>R$ {total}</td>
+                <td  className="borda border-top-0 " colSpan={2}>R${(juros * 0.775).toFixed(2)}</td>
+                <td className="borda border-top-0 " colSpan={1}>R$ {(total).toFixed(2)}</td>
                 
                 
             </tr>
@@ -303,8 +303,8 @@ useEffect(
 
             <tbody>
             <tr>
-                <td  className="borda border-top-0 " colSpan={2}>R${juros * 0.8}</td>
-                <td className="borda border-top-0 " colSpan={1}>R$ {total}</td>
+                <td  className="borda border-top-0 " colSpan={2}>R${(juros * 0.8.toFixed(2))}</td>
+                <td className="borda border-top-0 " colSpan={1}>R$ {(total).toFixed(2)}</td>
                 
                 
             </tr>
@@ -353,8 +353,8 @@ useEffect(
 
             <tbody>
             <tr>
-                <td  className="borda border-top-0 " colSpan={2}>R${juros * 0.825}</td>
-                <td className="borda border-top-0 " colSpan={1}>R$ {total}</td>
+                <td  className="borda border-top-0 " colSpan={2}>R${(juros * 0.825).toFixed(2)}</td>
+                <td className="borda border-top-0 " colSpan={1}>R$ {(total).toFixed(2)}</td>
                 
                 
             </tr>
@@ -403,8 +403,8 @@ useEffect(
 
             <tbody>
             <tr>
-                <td  className="borda border-top-0 " colSpan={2}>R${juros * 0.85}</td>
-                <td className="borda border-top-0 " colSpan={1}>R$ {total}</td>
+                <td  className="borda border-top-0 " colSpan={2}>R${(juros * 0.85).toFixed(2)}</td>
+                <td className="borda border-top-0 " colSpan={1}>R$ {(total).toFixed(2)}</td>
                 
                 
             </tr>
@@ -419,11 +419,11 @@ useEffect(
 
                     </table>
                   </Row>
-                  <Row className="  mx-auto col-4 "><table >
+                  <Row className="  mx-auto col-4 "><table className="col-sm-6 mx-auto" >
                   <thead className="tabela ">
             <tr >
-                <th className="borda border-bottom-0 p-1" colSpan={2}>Juros Mensal</th>
-                <th className="borda border-bottom-0 p-1" colSpan={2}>Juros Acumulado</th>
+                <th className="borda border-bottom-0 p-1" colSpan={2}>Juros </th>
+                
               
                 
                 
@@ -438,10 +438,10 @@ useEffect(
 
 
                       <tr >
+                       
                         <td className="borda">{index+1}</td>
-                        <td className="borda">preencher</td>
                         <td className="borda ">R$ {item}</td>
-                        
+                         
                     </tr>
                     
                   ))
