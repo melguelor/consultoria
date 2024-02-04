@@ -1,6 +1,6 @@
 
 
-import { Button, Container, Image, Row, Col, Card} from 'react-bootstrap';
+import { Button, Container, Image, Row, Col, Card, ListGroup} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../fotos/logo_novo.png'
 import calculo_financa from '../fotos/calculo_financa.png'
@@ -300,9 +300,7 @@ function App() {
 
               </Row>
 
-              </Container>
-            <Container className=' d-flex justify-content-center mx-auto'>
-              <Card className='col-lg-4 mb-2'>
+              </Container><Card className='col-lg-4 mb-2'>
                 
                 <Card.Body className='card_corpo text-light'>
                 <Card.Img variant="top" src={logo} className="mx-auto"/>
@@ -316,6 +314,82 @@ function App() {
                   </Link>
                 </Card.Footer>
               </Card>
+            <Container className='row '>
+              
+            <h1 className='titulo_laranja display-3'>MODALIDADES</h1>
+
+              <Card className='col-lg mt-md-0 mt-4'>
+                <Card.Header className=" bg-success text-light">
+                    Avulso
+                </Card.Header>
+                <ListGroup variant='flush'>
+                  <ListGroup.Item>1 hora de conversação</ListGroup.Item>
+                  <ListGroup.Item>Tira Duvidas</ListGroup.Item>
+                  <ListGroup.Item>-</ListGroup.Item>
+                  <ListGroup.Item>-</ListGroup.Item>
+                  <ListGroup.Item>-</ListGroup.Item>
+                </ListGroup>
+                <Button variant='success' onClick={() =>window.open('https://api.whatsapp.com/send?phone=5518991844367&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20a%20CONSULTORIA')}>
+                <Card.Footer className='' >
+                  APARTIR DE <br />
+                  
+                  R$ 80,00
+                </Card.Footer>
+              </Button>
+              </Card>
+
+              <Card className='col-lg mt-md-0 mt-4'>
+                <Card.Header className=" bg-success text-light">
+                    Treinamento
+                </Card.Header>
+                <ListGroup variant='flush'>
+                  <ListGroup.Item>4 meses</ListGroup.Item>
+                  <ListGroup.Item>Produção de Materia</ListGroup.Item>
+                  <ListGroup.Item>Do Básico ao Avançado</ListGroup.Item>
+                  <ListGroup.Item>Estrategia Financeira</ListGroup.Item>
+                  <ListGroup.Item>-</ListGroup.Item>
+                  
+                </ListGroup>
+                <Button variant='success' onClick={() =>window.open('https://api.whatsapp.com/send?phone=5518991844367&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20a%20CONSULTORIA')}>
+                <Card.Footer>
+                  APARTIR DE <br/>
+                  R$ 500,00
+                </Card.Footer></Button>
+              </Card>
+
+              <Card className='col-lg mt-md-0 mt-4'>
+                <Card.Header className=" bg-success text-light">
+                    OMEI - Orientação Mensal Estratégica de Investimentos
+                </Card.Header>
+                <ListGroup variant='flush'>
+                  <ListGroup.Item>Uma vez ao mês</ListGroup.Item>
+                  <ListGroup.Item>Entrega de um guia Mensal </ListGroup.Item>
+                  <ListGroup.Item>Consultor decide o melhor caminho para o objetivo</ListGroup.Item>
+                </ListGroup>
+                <Button variant='success' onClick={() =>window.open('https://api.whatsapp.com/send?phone=5518991844367&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20a%20CONSULTORIA')}>
+                <Card.Footer>
+                  APARTIR DE <br/>
+                  R$ 150,00
+                </Card.Footer></Button>
+              </Card>
+
+              <Card className='col-lg mt-md-0 mt-4'>
+                <Card.Header className=" bg-success text-light">
+                    CAI - Consultoria  Anual de  Ivestimentos
+                </Card.Header>
+                <ListGroup variant='flush'>
+                  <ListGroup.Item>Uma vez ao ano</ListGroup.Item>
+                  <ListGroup.Item>Verificação de Todos os Investimentos</ListGroup.Item>
+                  <ListGroup.Item>Realocação de Recursos</ListGroup.Item>
+                  <ListGroup.Item>Guia de Investimento</ListGroup.Item>
+                </ListGroup>
+                <Button variant='success' onClick={() =>window.open('https://api.whatsapp.com/send?phone=5518991844367&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20a%20CONSULTORIA')}>
+                <Card.Footer>
+                  APARTIR DE <br/>
+                  R$ 300,00
+                </Card.Footer></Button>
+              </Card>
+             <p>preços serão definidos posteriormente</p>
             </Container>
 
             <Container className="col-11">
