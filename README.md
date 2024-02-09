@@ -1,5 +1,5 @@
 # www.conscienciainvestidora.com.br
-# Projeto de Divulgação Pessoal ee Simuladores de Renda Fixa e Variaval
+# Projeto de Divulgação Pessoal e Simuladores de Renda Fixa e Variaval
 - Projeto voltando a educação financeira visando deixar os simuladores mais agradaveis e de facil compreensão
 - Informações pre-setadas como: taxa selic, IR CDB
 - Responsivo
