@@ -12,7 +12,7 @@ const Menu = () => {
           <Nav.Link href="/" className='cor' >Home</Nav.Link>
           <Nav.Link href="/cdb" className='cor'>Simulador</Nav.Link>
 
-          <Nav.Link href="/contatos" className='cor' >Contatoss</Nav.Link>
+          <Nav.Link href="/contatos" className='cor' >Contatos</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
